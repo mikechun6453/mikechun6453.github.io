@@ -6,7 +6,7 @@
     <meta name="description" content="CHUN KIN YING personal website about personal information, working experience and portfolio, by using this website can get contact with someone">
     <meta name="keywords" content="Chun Kin Ying,resume,portfolio,YPC International College,multimedia computing"/>
     <meta name="googlebot" content="index,nofollow">
-    <meta name=viewpoint content="width=device-width, initial-scale=1">
+    <meta name=viewpoint content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="RXp2WgOPT0UHqXd1LIObamGnyz-r_1hSUt8YInEBRcw" />
        <!-- Font Awesome -->
         <link
@@ -51,7 +51,7 @@
       <div class="collapse navbar-collapse" id="navbarExample01">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="index.html#about">about</a>
+            <a class="nav-link" aria-current="page" href="index.html#aboutme">about</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html#resume">resume</a>
@@ -67,9 +67,9 @@
   </nav>
 </header>
 
-
+<section id="aboutme" class="aboutme">
 <!-- Carousel wrapper -->
-    <div id="about" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">     
+    <div id="aboutcarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">     
         <!-- Inner -->
         <div class="carousel-inner">
           <!-- Single item -->
@@ -107,13 +107,14 @@
                 </div>
             </div>       
         </div> 
-    </div> 
+    </div>
+</section>
 
 <div class="container-fluid">
-    <hr class="hr-light my-4">
-    <div class="container-fluid">
-        
-        <section id="resume">
+    
+    <hr class="hr-light my-4"> 
+    
+        <section id="resume" class="resume">
         <div class="container">
                 <div class="row px-5" >
                 <h1 class="display-4"><strong>RESUME</strong></h1>
@@ -141,12 +142,10 @@
                     </div>
                 </div>                       
             </div>
-        </div>
-        </section>
-        
-        <hr class="hr-light my-4">
+        </div>       
         
         <div class="container">
+            <hr class="hr-light my-4">
             <div class="row px-5">            
                 <div class="row">
                     <div class="col-md-6">
@@ -165,10 +164,8 @@
             </div>
         </div>
         
-        
-        <hr class="hr-light my-4">
-        
         <div class="container">
+            <hr class="hr-light my-4">
             <div class="row px-5">            
                 <div class="row">
                     <div class="col-md-6">
@@ -193,6 +190,7 @@
                 </div>                       
             </div>
         </div>
+        </section>
         
         <hr class="hr-light my-4">
         
@@ -210,7 +208,7 @@
 									<div class="img d-flex align-items-end justify-content-center" style="background-image: url(image/1.png);">
 										<div class="text w-100">
 											<span class="cat">Product Design</span>
-											<h3><a href="#">2LAB Milk Cleanser</a></h3>
+											<h3><a href="product_design.html">2LAB Malaysia</a></h3>
 										</div>
 									</div>
 								</div>
@@ -220,7 +218,7 @@
 									<div class="img d-flex align-items-end justify-content-center" style="background-image: url(image/2.png);">
 										<div class="text w-100">
 											<span class="cat">Magazine</span>
-											<h3><a href="#">COVID-19 Scenario in Malaysia</a></h3>
+											<h3><a href="magazine.html">COVID-19 Scenario in Malaysia</a></h3>
 										</div>
 									</div>
 								</div>
@@ -229,8 +227,8 @@
 								<div class="work">
 									<div class="img d-flex align-items-end justify-content-center" style="background-image: url(image/7.png);">
 										<div class="text w-100">
-											<span class="cat">T-shirt design</span>
-											<h3><a href="#">HIERARCHY Malaysia</a></h3>
+											<span class="cat">Word expression</span>
+											<h3><a href="hierarchy.html">HIERARCHY</a></h3>
 										</div>
 									</div>
 								</div>
@@ -239,8 +237,8 @@
 								<div class="work">
 									<div class="img d-flex align-items-end justify-content-center" style="background-image: url(image/4.png);">
 										<div class="text w-100">
-											<span class="cat">Logo design</span>
-                                                                                        <h3><a href="#">LOUD Malaysia</a></h3>
+											<span class="cat">Word expression</span>
+                                                                                        <h3><a href="loud.html">LOUD</a></h3>
 										</div>
 									</div>
 								</div>
@@ -250,7 +248,7 @@
 									<div class="img d-flex align-items-end justify-content-center" style="background-image: url(image/5.png);">
 										<div class="text w-100">
 											<span class="cat">Desktop Publishing</span>
-                                                                                        <h3><a href="#">Newspaper</a></h3>
+                                                                                        <h3><a href="newspaper.html">Newspaper</a></h3>
 										</div>
 									</div>
 								</div>
@@ -263,10 +261,9 @@
                 </div>                       
             </div>
         </div>       
-    </div>       
+           
 
 <!--/.Carousel Wrapper-->
-
 <hr class="hr-light my-4">
 
     <div class="container" id="contact">
@@ -299,16 +296,12 @@
             </div>
         </div>
 </div>
-
-
-
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>    
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 
-<div class="container-fluid bg-light">
-  
+<div class="container-fluid bg-light">  
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
     <div class="col-md-3 d-flex justify-content-center">
         <div class="row">
@@ -342,10 +335,7 @@
                     <div class="col">
                         <a href="#"><i class="fab fa-twitter fa-lg text-muted"></i></a>
                     </div>
-                </div>
-                    
-                    
-                    
+                </div>   
             </div>
         </div>      
     </div>
@@ -359,9 +349,7 @@
             <div class="col-md-3"></div>
         </div>      
     </div>
-  </footer>
-  
+  </footer>  
 </div>
-
 </body>
 </html>
